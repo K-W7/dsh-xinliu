@@ -1,0 +1,44 @@
+{
+  "name": "dsh-xinliu",
+  "version": "1.0.0",
+  "description": "心流：把心里说不清的想法，逐条问清、记下理由，压成一份能开工的框架。",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "lib",
+    "locale",
+    "tests",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": ["dsh", "deepseek-harness", "dsh-plugin", "requirements", "product"],
+  "homepage": "https://github.com/K-W7/dsh-xinliu#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-W7/dsh-xinliu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/K-W7/dsh-xinliu/issues"
+  },
+  "author": "KLRSL",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "license": "MIT"
+}

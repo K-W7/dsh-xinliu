@@ -1,0 +1,5 @@
+# dsh-xinliu bundle patch: 挂载「心流」插件行。
+# M1 只有 host 半区：提示词（提议 + 进行中）+ 六个工具 + /flow 命令。
+- insert:
+    - id: dsh-xinliu
+      name: dsh-xinliu

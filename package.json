@@ -1,6 +1,6 @@
 {
   "name": "dsh-xinliu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "心流：把心里说不清的想法，逐条问清、记下理由，压成一份能开工的框架。",
   "type": "module",
   "main": "index.mjs",
